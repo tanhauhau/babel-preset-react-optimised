@@ -1,0 +1,32 @@
+{
+  "name": "babel-preset-react-optimised",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.8.3",
+    "@babel/preset-react": "^7.8.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/helper-plugin-test-runner": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/*.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
