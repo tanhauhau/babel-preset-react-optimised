@@ -2,6 +2,8 @@
 
 Replaces `React.createElement` and `React.createFragment` to a minifier-friendly variable to squeeze the extra bytes out of your [React](http://reactjs.org/) code.
 
+Based on Next.js's build babel plugin, [jsx-pragma](https://github.com/zeit/next.js/blob/canary/packages/next/build/babel/plugins/jsx-pragma.ts), see [PR](https://github.com/zeit/next.js/pull/8350).
+
 ## Example
 
 ### Input
